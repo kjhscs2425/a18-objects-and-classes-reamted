@@ -10,20 +10,13 @@ ella.speak()
 
 # Write a new class `Dog` with its own `speak` method
 class Dog:
-  def speak(self):
-    print("bark")
-
-# Write a new class `Dog` with its own `speak` method
-class ServiceDog:
-  def speak(self):
-    print("...")
-
-class Dog:
-  def speak(self):
-    print("bark")
+    def speak(self):
+        print('woof')
+        
 
 # Make a new object of class `Dog` and call its `speak` method
 #### YOUR CODE HERE ####
-damien = ServiceDog()
-damien.speak()
+ember = Dog()
+ember.speak()
+
 
